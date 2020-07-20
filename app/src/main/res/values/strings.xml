@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dollar qursi</string>
+    <string name="enter">Enter</string>
+    <string name="enter_lubboy_number">"Do'llarda kiriting:"</string>
+    <string name="natija_metrda">Natija metrlarda</string>
+    <string name="button">"SO'M ga o'tirish"</string>
+    <string name="metr">$</string>
+</resources>

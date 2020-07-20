@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dddddd"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/rasm"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/image" />
+
+
+    <EditText
+    android:id="@+id/edittex"
+    android:layout_width="220dp"
+    android:layout_height="50dp"
+    android:layout_below="@+id/rasm"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="6dp"
+    android:hint="@string/enter_lubboy_number" />
+
+    <TextView
+        android:id="@+id/metrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="167dp"
+        android:layout_toRightOf="@id/edittex"
+        android:textSize="29dp"
+        android:text="@string/metr" />
+
+    <Button
+        android:id="@+id/btn"
+        android:text="@string/button"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="161dp"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
